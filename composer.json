@@ -1,0 +1,13 @@
+ {
+  "repositories": 
+    {
+      "sfmok/hello-world": {
+		"type": "vcs",
+		"url": "https://github.com/phadnisanand/hello-world-2"
+      }
+    }
+  ,
+  "require": {
+    "sfmok/hello-world": "dev-master"
+  }
+}    

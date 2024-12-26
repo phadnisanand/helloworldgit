@@ -1,0 +1,57 @@
+{
+    "packages": [
+        {
+            "name": "sfmok/hello-world",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phadnisanand/hello-world-2.git",
+                "reference": "fb79d08942d1475b251cb2af980764aae32e18bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phadnisanand/hello-world-2/zipball/fb79d08942d1475b251cb2af980764aae32e18bf",
+                "reference": "fb79d08942d1475b251cb2af980764aae32e18bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "time": "2024-12-26T12:49:18+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Sfmok\\HelloWorld\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Sfmok\\HelloWorld\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mokhtar Tlili",
+                    "email": "tlili.mokhtar@gmail.com"
+                }
+            ],
+            "description": "A hello world example package.",
+            "support": {
+                "source": "https://github.com/phadnisanand/hello-world-2/tree/dev",
+                "issues": "https://github.com/phadnisanand/hello-world-2/issues"
+            },
+            "install-path": "../sfmok/hello-world"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

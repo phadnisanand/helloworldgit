@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "38f9ca9a311b1b94cec9b974a7eab19e",
+    "packages": [
+        {
+            "name": "sfmok/hello-world",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phadnisanand/hello-world-2.git",
+                "reference": "fb79d08942d1475b251cb2af980764aae32e18bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phadnisanand/hello-world-2/zipball/fb79d08942d1475b251cb2af980764aae32e18bf",
+                "reference": "fb79d08942d1475b251cb2af980764aae32e18bf",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sfmok\\HelloWorld\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Sfmok\\HelloWorld\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mokhtar Tlili",
+                    "email": "tlili.mokhtar@gmail.com"
+                }
+            ],
+            "description": "A hello world example package.",
+            "support": {
+                "source": "https://github.com/phadnisanand/hello-world-2/tree/dev",
+                "issues": "https://github.com/phadnisanand/hello-world-2/issues"
+            },
+            "time": "2024-12-26T12:49:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sfmok/hello-world": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
